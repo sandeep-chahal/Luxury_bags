@@ -15,6 +15,26 @@ html {
 *:before,
 *:after {
   box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+// importing custom fonts
+@font-face {
+  font-family: Ballerina;
+  src: url(../assests/fonts/Ballerina.ttf);
+}
+@font-face {
+  font-family: HalloEuroboy;
+  src: url(../assests/fonts/HalloEuroboy.ttf);
+}
+@font-face {
+  font-family: Lusitana;
+  src: url(../assests/fonts/Lusitana.ttf);
+}
+@font-face {
+  font-family: Tahu;
+  src: url(../assests/fonts/Tahu.ttf);
 }
 
 // importing modules
