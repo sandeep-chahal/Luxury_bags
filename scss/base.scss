@@ -1,0 +1,28 @@
+// colors
+:root {
+  --color-primary-1: #faeada;
+  --color-primary-2: #daa979;
+  --color-white: #fff;
+  --color-black: #707070;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; //62.5% = 10px, it makes working with rem more easier
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+// importing modules
+@import "./mixins"; //it includes media queries
+@import "./utility"; //utility classes
+@import "./nav";
+@import "./header";
+@import "./showcase";
+@import "./about";
+@import "./gallery";
+@import "./footer";

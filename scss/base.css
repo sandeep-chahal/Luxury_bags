@@ -1,1 +1,24 @@
-/* No CSS *//*# sourceMappingURL=base.css.map */
+:root {
+  --color-primary-1: #faeada;
+  --color-primary-2: #daa979;
+  --color-white: #fff;
+  --color-black: #707070;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+.nav {
+  background-color: var(color-primary-1);
+}
+/*# sourceMappingURL=base.css.map */
