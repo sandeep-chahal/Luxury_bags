@@ -41,8 +41,8 @@ html {
 }
 
 .underline {
-  width: 70%;
-  height: 1.5px;
+  width: 40%;
+  height: 1.8px;
   background-color: var(--color-black);
 }
 
@@ -108,5 +108,30 @@ html {
   color: var(--color-black);
   font-family: Ballerina, sans-serif;
   font-size: 3rem;
+}
+
+.header {
+  width: 100vw;
+  height: 70vh;
+  background-color: var(--color-primary-1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header .left {
+  width: 50%;
+  height: 100%;
+}
+
+.header .left .header-img {
+  -webkit-transform: translateY(100px);
+          transform: translateY(100px);
+  margin: auto;
+  width: 60%;
+  height: 100%;
+  background: url(../assests/images/header.jpg);
+  background-position: center;
+  background-size: cover;
 }
 /*# sourceMappingURL=base.css.map */

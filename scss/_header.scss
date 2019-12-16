@@ -1,0 +1,20 @@
+.header {
+  width: 100vw;
+  height: 70vh;
+  background-color: var(--color-primary-1);
+  display: flex;
+
+  .left {
+    width: 50%;
+    height: 100%;
+    .header-img {
+      transform: translateY(100px);
+      margin: auto;
+      width: 60%;
+      height: 100%;
+      background: url(../assests/images/header.jpg);
+      background-position: center;
+      background-size: cover;
+    }
+  }
+}
