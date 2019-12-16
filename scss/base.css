@@ -12,6 +12,10 @@ html {
   color: var(--color-black);
 }
 
+body {
+  overflow-x: hidden;
+}
+
 *,
 *:before,
 *:after {
@@ -232,7 +236,7 @@ html {
 .whyWe {
   margin-top: 25vh;
   width: 100vw;
-  height: 50vh;
+  height: 40vh;
   text-align: center;
 }
 
