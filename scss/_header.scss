@@ -34,3 +34,22 @@
     }
   }
 }
+
+.whyWe {
+  margin-top: 25vh;
+  width: 100vw;
+  height: 50vh;
+  text-align: center;
+
+  .underline {
+    transform: translate(2.5rem, -0.8rem);
+  }
+
+  p {
+    margin: 2rem auto;
+    width: 30%;
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+  }
+}

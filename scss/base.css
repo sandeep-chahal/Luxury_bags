@@ -9,6 +9,7 @@ html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-size: 62.5%;
+  color: var(--color-black);
 }
 
 *,
@@ -97,6 +98,20 @@ html {
   color: var(--color-black);
   background-color: transparent;
   border: 2px solid var(--color-black);
+}
+
+.heading-1 {
+  font-family: Tahu, sans-serif;
+  font-size: 3rem;
+  margin: auto;
+  color: var(--color-primary-2);
+}
+
+.heading-1 + .underline {
+  margin: auto;
+  width: 5rem;
+  height: 2.5px;
+  background-color: var(--color-primary-2);
 }
 
 .nav {
@@ -212,5 +227,25 @@ html {
   font-family: Lusitana, sans-serif;
   font-size: 1.2rem;
   letter-spacing: 1px;
+}
+
+.whyWe {
+  margin-top: 25vh;
+  width: 100vw;
+  height: 50vh;
+  text-align: center;
+}
+
+.whyWe .underline {
+  -webkit-transform: translate(2.5rem, -0.8rem);
+          transform: translate(2.5rem, -0.8rem);
+}
+
+.whyWe p {
+  margin: 2rem auto;
+  width: 30%;
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+  word-spacing: 3px;
 }
 /*# sourceMappingURL=base.css.map */
