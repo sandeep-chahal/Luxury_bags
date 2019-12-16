@@ -46,3 +46,16 @@
     border: 2px solid var(--color-black);
   }
 }
+
+.heading-1 {
+  font-family: Tahu, sans-serif;
+  font-size: 3rem;
+  margin: auto;
+  color: var(--color-primary-2);
+  & + .underline {
+    margin: auto;
+    width: 5rem;
+    height: 2.5px;
+    background-color: var(--color-primary-2);
+  }
+}
