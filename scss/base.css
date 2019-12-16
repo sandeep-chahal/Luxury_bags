@@ -46,6 +46,41 @@ html {
   background-color: var(--color-black);
 }
 
+.boxDesign {
+  border: 2px solid var(--color-black);
+  width: 20rem;
+  height: 12rem;
+  padding: 0 3rem;
+  font-family: HalloEuroboy, sans-serif;
+  color: var(--color-black);
+  font-size: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.boxDesign h1 {
+  font-size: 3.5rem;
+  position: absolute;
+  font-family: Tahu, sans-serif;
+  font-weight: 300;
+  background-color: var(--color-primary-1);
+  padding: 0 1rem;
+  -webkit-transform: translateY(-6rem);
+          transform: translateY(-6rem);
+}
+
+.boxDesign .underline {
+  height: 4px;
+}
+
 .nav {
   padding: 2rem;
   background-color: var(--color-white);
@@ -133,5 +168,19 @@ html {
   background: url(../assests/images/header.jpg);
   background-position: center;
   background-size: cover;
+}
+
+.header .right {
+  width: 50%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=base.css.map */

@@ -3,3 +3,29 @@
   height: 1.8px;
   background-color: var(--color-black);
 }
+
+.boxDesign {
+  border: 2px solid var(--color-black);
+  width: 20rem;
+  height: 12rem;
+  padding: 0 3rem;
+  font-family: HalloEuroboy, sans-serif;
+  color: var(--color-black);
+  font-size: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h1 {
+    font-size: 3.5rem;
+    position: absolute;
+    font-family: Tahu, sans-serif;
+    font-weight: 300;
+    background-color: var(--color-primary-1);
+    padding: 0 1rem;
+    transform: translateY(-6rem);
+  }
+  .underline {
+    height: 4px;
+  }
+}
