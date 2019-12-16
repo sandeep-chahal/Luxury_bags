@@ -81,6 +81,24 @@ html {
   height: 4px;
 }
 
+.btn {
+  margin-top: 1rem;
+  padding: 0.8rem 1.5rem;
+  font-size: 1.7em;
+  color: var(--color-white);
+  background-color: var(--color-black);
+  border: 2px solid transparent;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+  color: var(--color-black);
+  background-color: transparent;
+  border: 2px solid var(--color-black);
+}
+
 .nav {
   padding: 2rem;
   background-color: var(--color-white);
@@ -163,7 +181,7 @@ html {
   -webkit-transform: translateY(100px);
           transform: translateY(100px);
   margin: auto;
-  width: 60%;
+  width: 75%;
   height: 100%;
   background: url(../assests/images/header.jpg);
   background-position: center;

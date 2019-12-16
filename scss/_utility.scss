@@ -29,3 +29,20 @@
     height: 4px;
   }
 }
+
+.btn {
+  margin-top: 1rem;
+  // display: inline-block;
+  padding: 0.8rem 1.5rem;
+  font-size: 1.7em;
+  color: var(--color-white);
+  background-color: var(--color-black);
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    color: var(--color-black);
+    background-color: transparent;
+    border: 2px solid var(--color-black);
+  }
+}
