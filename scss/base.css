@@ -252,4 +252,71 @@ body {
   letter-spacing: 1px;
   word-spacing: 3px;
 }
+
+.showcase {
+  width: 100vw;
+  height: 80vh;
+  background: url(../assests/images/video_bg.jpg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.showcase .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.showcase .video-bg {
+  width: 700px;
+  height: 400px;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.4);
+  -webkit-transform: translate(30px, -30px);
+          transform: translate(30px, -30px);
+}
+
+.showcase video {
+  width: 60%;
+  z-index: 2;
+}
+
+.showcase .left {
+  width: 75%;
+}
+
+.showcase .right {
+  width: 25%;
+}
+
+.showcase .boxDesign {
+  color: var(--color-white);
+  border-color: var(--color-white);
+}
+
+.showcase h1 {
+  background-color: transparent;
+}
+
+.showcase p {
+  font-size: 3.5rem;
+}
+
+.showcase .underline {
+  background-color: var(--color-white);
+}
 /*# sourceMappingURL=base.css.map */
