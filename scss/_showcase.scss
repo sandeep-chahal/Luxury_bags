@@ -1,0 +1,47 @@
+.showcase {
+  width: 100vw;
+  height: 80vh;
+  background: url(../assests/images/video_bg.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .video-bg {
+    width: 700px;
+    height: 400px;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.4);
+    transform: translate(30px, -30px);
+  }
+  video {
+    width: 60%;
+    z-index: 2;
+  }
+
+  .left {
+    width: 75%;
+  }
+  .right {
+    width: 25%;
+  }
+
+  .boxDesign {
+    color: var(--color-white);
+    border-color: var(--color-white);
+  }
+  h1 {
+    background-color: transparent;
+  }
+  p {
+    font-size: 3.5rem;
+  }
+  .underline {
+    background-color: var(--color-white);
+  }
+}
